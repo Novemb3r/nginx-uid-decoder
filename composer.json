@@ -1,5 +1,8 @@
 {
     "name": "novemb3r/nginx-uid-decode",
+    "description": "A simple library to decode/encode uid from ngx_http_userid_module",
+    "keywords": ["nginx", "uid", "decode"],
+    "license": "MIT",
     "authors": [
         {
             "name": "November",
