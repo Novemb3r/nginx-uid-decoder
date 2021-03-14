@@ -18,7 +18,7 @@ differs from the one you get from user cookies. So, you have to decode them to c
 ```
 
 ### Installing
-This library installs as a [composer package](https://packagist.org/packages/novemb3r/nginx-uid-decode) with
+This library installs as a [composer package](https://packagist.org/packages/novemb3r/nginx-uid-decoder) with
 
 ```
 composer require novemb3r/nginx-uid-decoder
