@@ -1,0 +1,26 @@
+{
+    "name": "novemb3r/nginx-uid-decode",
+    "authors": [
+        {
+            "name": "November",
+            "email": "igkutyrev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "symfony/console": "5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "NginxUidDecoder\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NginxUidDecoder\\": "tests/unit/"
+        }
+    }
+}
