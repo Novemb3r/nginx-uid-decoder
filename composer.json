@@ -1,7 +1,7 @@
 {
     "name": "novemb3r/nginx-uid-decoder",
     "description": "A simple library to decode/encode uid from ngx_http_userid_module",
-    "keywords": ["nginx", "uid", "decode"],
+    "keywords": ["nginx", "uid", "decode", "ngx_http_userid_module", "cookie", "uid_got", "uid_set"],
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.4"
@@ -24,5 +24,8 @@
         "psr-4": {
             "NginxUidDecoder\\": "tests/unit/"
         }
+    },
+    "scripts": {
+        "test": "phpunit -c tests/phpunit.xml"
     }
 }
