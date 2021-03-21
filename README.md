@@ -1,4 +1,5 @@
 # Nginx uid decoder
+[![packagist-dt-badge]][packagist] [![license-badge]][license] [![release-version-badge]][packagist] ![php-version-badge] [![code-climate-maintainability-badge]][code-climate]
 
 A simple library to decode/encode uid from [ngx_http_userid_module](http://nginx.org/en/docs/http/ngx_http_userid_module.html)
 
@@ -17,11 +18,11 @@ differs from the one you get from user cookies. So, you have to decode them to c
  // 'CqCx7E5qMNUxrmAUAwMJAg=='
 ```
 
-### Installing
+## Installing
 This library installs as a [composer package](https://packagist.org/packages/novemb3r/nginx-uid-decoder) with
 
 ```
-composer require novemb3r/nginx-uid-decoder
+$ composer require novemb3r/nginx-uid-decoder
 ```
 or 
 ```
@@ -30,4 +31,12 @@ or
         "novemb3r/nginx-uid-decoder": "dev-master"
     }
 }
+```
+
+## Testing
+
+To execute test suites run
+
+```
+$ composer test
 ```
