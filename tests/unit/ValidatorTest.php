@@ -67,6 +67,14 @@ class ValidatorTest extends TestCase
                 'Zm9vYmFy',
                 true
             ],
+            [
+                'fwAAAV0+qHDCY1/2AwMXAg==',
+                true
+            ],
+            [
+                'fwAAAV0 qHDCY1/2AwMXAg==',
+                false
+            ]
         ];
     }
 

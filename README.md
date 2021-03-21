@@ -1,5 +1,5 @@
 # Nginx uid decoder
-[![packagist-dt-badge]][packagist] [![license-badge]][license] [![release-version-badge]][packagist] ![php-version-badge] [![code-climate-maintainability-badge]][code-climate]
+[![packagist-dt-badge]][packagist] [![release-version-badge]][packagist] ![php-version-badge] [![code-climate-maintainability-badge]][code-climate] ![license]
 
 A simple library to decode/encode uid from [ngx_http_userid_module](http://nginx.org/en/docs/http/ngx_http_userid_module.html)
 
@@ -40,3 +40,12 @@ To execute test suites run
 ```
 $ composer test
 ```
+
+<!-- Badges -->
+[packagist-dt-badge]: https://img.shields.io/packagist/dt/novemb3r/nginx-uid-decoder.svg?style=flat-square
+[release-version-badge]: https://img.shields.io/packagist/v/novemb3r/nginx-uid-decoder.svg?style=flat-square&label=release
+[packagist]: https://packagist.org/packages/novemb3r/nginx-uid-decoder
+[php-version-badge]: https://img.shields.io/packagist/php-v/suin/json.svg?style=flat-square
+[code-climate]: https://codeclimate.com/github/novemb3r/nginx-uid-decoder
+[code-climate-maintainability-badge]: https://img.shields.io/codeclimate/maintainability/Novemb3r/nginx-uid-decoder.svg?style=flat-square
+[license]: https://img.shields.io/badge/License-MIT-green.svg?style=flat-square
